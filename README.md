@@ -33,11 +33,21 @@ Actually, me too. But the goal here is to gain the efficiencies that come from a
 See the "IDE Setup" sections for more information on plugins/extensions you need to have installed.
 
 ###Linting
-Under `linting/JavaScript`, there are three folders: `node`, `specs` and `webclient`. Each one contains a `.jshintrc` file tuned for those specific cases (specs should work for our mocah + should tests in both node and browser). These jshint configurations are the standard - please do not alter them locally within a project. All PRs will be linted (this will eventually be automatic), so changing a setting locally will likely result in a rejected PR.
+Under `linting/JavaScript`, there are four folders: `node`, `specs`, `webclient` and `VisualStudio`. Each one contains a `.jshintrc` file tuned for those specific cases (specs should work for our mocah + should tests in both node and browser). These jshint configurations are the standard - please do not alter them locally within a project. All PRs will be linted (this will eventually be automatic), so changing a setting locally will likely result in a rejected PR.
+
+The Visual Studio `.jshintrc` file is intended to be used with the Web Essentials extension. See the section on "IDE Setup" for more info.
 
 ###Formatting
-The js-beautify settings file is included in `linting/JavaScript/JavascriptBeautify.sublime-settings`. You will need to copy and paste the contents of this file into your local ST3 settings by doing the following:
+The js-beautify settings file for Sublime Text 3 is included in `linting/JavaScript/JavascriptBeautify.sublime-settings`. You will need to copy and paste the contents of this file into your local ST3 settings by doing the following:
 
 * In Sublime Text, navigate to Preferences -> Package Settings -> JavaScript Beautify -> Settings User
 * Copy the contents of the file in this repo into your user settings file.
 * Save and close.
+
+The Visual Studio formatting settings require ReSharper - see the "IDE Setup" section for more info.
+
+##IDE Setup
+
+###Sublime Text 3
+
+###Visual Studio 2013
