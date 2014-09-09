@@ -93,7 +93,6 @@
 	// These options are legacy from JSLint. Aside from bug fixes they will not
 	// be improved in any way and might be removed at any point.
 
-	"vars": true,
 	"nomen": false, //disallows the use of dangling `_` in variables
 	"onevar": false, //allows only one `var` statement per function
 	"passfail": false, //makes JSHint stop on the first error or warning
