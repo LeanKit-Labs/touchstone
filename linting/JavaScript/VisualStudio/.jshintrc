@@ -19,10 +19,10 @@
     "nonew": true, // true: Prohibit use of constructors for side-effects (without assignment)
     "plusplus": false, // true: Prohibit use of `++` & `--`
     "quotmark": true, // Quotation mark consistency:
-    //   false    : do nothing (default)
-    //   true     : ensure whatever is used is consistent
-    //   "single" : require single quotes
-    //   "double" : require double quotes
+                //   false    : do nothing (default)
+                //   true     : ensure whatever is used is consistent
+                //   "single" : require single quotes
+                //   "double" : require double quotes
     "undef": true, // true: Require all non-global variables to be declared (prevents global leaks)
     "unused": true, // true: Require all defined variables be used
     "strict": false, // true: Requires all functions run in ES5 Strict Mode
@@ -54,9 +54,9 @@
     "proto": false, // true: Tolerate using the `__proto__` property
     "scripturl": false, // true: Tolerate script-targeted URLs
     "shadow": false, // true: Allows re-define variables later in code e.g. `var x=1; x=2;`
-    "sub": false, // true: Tolerate using `[]` notation when it can still be expressed in dot notation
+    "sub": true, // true: Tolerate using `[]` notation when it can still be expressed in dot notation
     "supernew": false, // true: Tolerate `new function () { ... };` and `new Object;`
-    "validthis": false, // true: Tolerate using this in a non-constructor function
+    "validthis": true, // true: Tolerate using this in a non-constructor function
 
     // Environments
     "browser": true, // Web Browser (window, document, etc)
@@ -76,6 +76,7 @@
     // Custom Globals
     "globals": {
         "_": true,
-        "define": true
+        "define": true,
+        "require": true
     } // additional predefined global variables
 }
