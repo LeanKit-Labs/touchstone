@@ -20,6 +20,7 @@
 	"disallowMultipleLineStrings": true,
 	"disallowMultipleSpaces": true,
 	"disallowMultipleVarDecl": "exceptUndefined",
+	"disallowNewlineBeforeBlockStatements": true,
 	"disallowOperatorBeforeLineBreak": [
 		"+",
 		"."
@@ -50,7 +51,7 @@
 	],
 	"maximumLineLength": null,
 	"requireBlocksOnNewline": true,
-	"requireCamelCaseOrUpperCaseIdentifiers": true,
+	"requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties",
 	"requireCapitalizedConstructors": true,
 	"requireCommaBeforeLineBreak": true,
 	"requireCurlyBraces": [
