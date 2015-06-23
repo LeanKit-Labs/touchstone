@@ -46,7 +46,7 @@
 	"evil": false, //suppresses warnings about the use of eval
 	"expr": true, //suppresses warnings about the use of expressions where normally you would expect to see assignments or function calls
 	"funcscope": false, //suppresses warnings about declaring variables inside of control structures while accessing them later from the outside
-	"globalstrict": false, //suppresses warnings about the use of global strict mode
+	"globalstrict": true, //suppresses warnings about the use of global strict mode
 	"iterator": false, //suppresses warnings about the `__iterator__` property
 	"lastsemic": false, //suppresses warnings about missing semicolons, but only when the semicolon is omitted for the last statement in a one-line block
 	"laxbreak": true, //suppresses most of the warnings about possibly unsafe line breakings in your code
