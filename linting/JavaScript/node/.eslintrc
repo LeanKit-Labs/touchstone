@@ -1,0 +1,12 @@
+{
+  "env": {
+    "node": true
+  },
+
+  "plugins": [],
+
+  "rules": {
+    "no-unused-vars": [2, {"vars": "all", "args": "none"}],
+    "no-underscore-dangle" : 0
+  }
+}
